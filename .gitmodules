@@ -1,0 +1,3 @@
+[submodule "docs"]
+	path = docs
+	url = git@github.com:lightcube-c/lightcube-c.github.io.git
