@@ -1,0 +1,38 @@
+{
+  "profile": {
+    "display_id": "mizuha",
+    "user_id": "7WP6fIRZjr61ziSxNqyK5hTJeuQdYx1w",
+    "user_name": "Yayoi Mizuha",
+    "user_icon": "qBubeQ5fqK",
+    "last_changed": "20200826154327"
+  },
+  "contents": {
+    "content1": {
+      "type": "directory",
+      "display_name": "Sample Folder",
+      "name": "samplefolder",
+      "content": {
+        "content": {
+          "type": "project",
+          "display_name": "Sample Project 1",
+          "name": "sampleproject1",
+          "thumbnail": "qBubRMuVKsbG5nD3Q1vR2NzIwcGyv3zN49J+AeQ5fqK"
+        },
+        {
+          "type": "project",
+          "display_name": "Sample Project 2",
+          "name": "sampleproject2",
+          "thumbnail": "qB0dWHQoX7sd4GoDo55Xa19q0QdfmxIFr2us1fV7Inoi8R9bnfpKlMUo0xH5vzN49J+AeQ5fqK"
+        }
+      }
+    }
+    {
+      "content": {
+        "type": "project",
+        "display_name": "My Project 1",
+        "name": "myproject1",
+        "thumbnail": "kQ+UuJaPkSZTr5EbN9IDCHKxENzIwcGyv3zN49J+AeQ5fqK"
+      }
+    }
+  }
+}
