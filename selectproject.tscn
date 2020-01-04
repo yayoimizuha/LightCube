@@ -1,0 +1,9 @@
+[gd_scene format=2]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="ItemList" type="ItemList" parent="."]
+margin_left = 300.0
+margin_top = 121.053
+margin_right = 819.0
+margin_bottom = 523.053
