@@ -1,10 +1,10 @@
 
-=== Tue Jan 21 15:49:05 2020
+=== Tue Jan 21 16:20:57 2020
 
 Packages were changed.
 Update Mode: mergeDefaultDependencies
 
-The following packages were added:
+The following packages were 追加済:
   com.unity.analytics@3.2.2
   com.unity.purchasing@2.0.3
   com.unity.ads@2.0.8
