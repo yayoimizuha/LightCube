@@ -2,3 +2,5 @@ Temp\*
 **.log
 Library\CurrentLayout.dwlt
 Temp*
+**.meta
+Library\metadata*
