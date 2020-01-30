@@ -4,5 +4,5 @@ Param(
 )
 Set-Location $PathArg
 git add -A
-git commit -m "LightCube Automation From Unity Collab to Github by $User"
+git commit -m "LightCube Automation From Unity Collab to Github by $User (Get-date)"
 git push origin master
