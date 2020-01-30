@@ -4,6 +4,7 @@ Param(
     [String]$Date = (Get-date)
 )
 Set-Location $PathArg
+git fetch
 git add -A
 git commit -m "LightCube Automation From Unity Collab to Github by $User at $Date"
 git push origin master
