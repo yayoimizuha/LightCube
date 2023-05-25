@@ -6,7 +6,7 @@ public class carmanager : MonoBehaviour
 {
     public int vec;
     public float maxspeed = 5;
-    private int forcem = 1;
+    private int forcem = 30;
     private Vector2 force;
     private Rigidbody2D _rb;
     Vector2[] vector = {new Vector2(1f,0f),new Vector2(-1f,0f),new Vector2(0f,1f),new Vector2(0f,-1f)};
@@ -18,12 +18,11 @@ public class carmanager : MonoBehaviour
     {
         _rb = GetComponent<Rigidbody2D>();
         force = forcem * vector[vec];
+        Debug.Log(force);
     }
 
     void FixedUpdate()
     {
-        // TODO: 車に力を与える仕組みを完成させる
-        // TODO: 最大速度になったら加速を止める
         if (_rb.velocity.magnitude < maxspeed)
         {
             _rb.AddForce(force);
